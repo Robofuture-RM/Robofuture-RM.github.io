@@ -103,7 +103,7 @@ sources: bootcdn # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: addtoany # false (default), "addtoany", "addthis", "custom"
+  provider: false # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
@@ -113,7 +113,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -124,7 +124,7 @@ comments:
   gitalk:
     clientID    : 29c97530b8da656cbfc5 # GitHub Application Client ID
     clientSecret: 36a1b8be86b42929b6a90552e771aa97d3a25915 # GitHub Application Client Secret
-    repository  : Robofuture-RM.github.io # GitHub repo
+    repository  : Comments # GitHub repo
     owner       : Robofuture-RM # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       - Robofuture-RM # - your GitHub Id
