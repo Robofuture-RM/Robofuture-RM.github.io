@@ -4,7 +4,6 @@ tags: STM32CubelIDE
 author: Zhb-Wave
 show_author_profile: true
 modify_date: 2021-02-04
-typora-root-url: ..
 ---
 
 ## 目的
@@ -57,29 +56,29 @@ STM32cubeIDE是ST官方推出的一款用于开发STM32的工具，在这里进�
 
 这里只需设置项目名字（Project Name），其他都保持默认
 
-![porject_setup](assets/images/STM32CubelIDE/porject_setup.png)
+![porject_setup](http://robofuture.net.cn/assets/images/STM32CubelIDE/porject_setup.png)
 
-![firmware_setup](assets/images/STM32CubelIDE/firmware_setup.png)
+![firmware_setup](http://robofuture.net.cn/assets/images/STM32CubelIDE/firmware_setup.png)
 
 ### 5.引脚设置
 
 在这里根据我们的项目和 PCB 进行引脚的设置，设置完后生成代码
 
-![mx_configuration](assets\images\STM32CubelIDE\mx_configuration.png)
+![mx_configuration](http://robofuture.net.cn/assets/images/STM32CubelIDE/mx_configuration.png)
 
 ### 6.编辑代码
 
 下面我们进行代码的编写，编写功能代码后，需要先进行编译，然后才可以进行调试
 
-![edit_code](assets\images\STM32CubelIDE\edit_code.png)
+![edit_code](http://robofuture.net.cn/assets/images/STM32CubelIDE/edit_code.png)
 
 ### 7.调试与运行
 
-在进行调试前，还需要进行配置，点击调试按钮![debug_button](..\assets\images\STM32CubelIDE\debug_button.png)，进入Debug Configuration，选择使用的调试器，配置完成后就能进行调试
+在进行调试前，还需要进行配置，点击调试按钮![debug_button](http://robofuture.net.cn/assets/images/STM32CubelIDE/debug_button.png)，进入Debug Configuration，选择使用的调试器，配置完成后就能进行调试
 
-![debug_config](assets\images\STM32CubelIDE\debug_config.png)
+![debug_config](http://robofuture.net.cn/assets/images/STM32CubelIDE/debug_config.png)
 
-![debug](assets\images\STM32CubelIDE\debug.png)
+![debug](http://robofuture.net.cn/assets/images/STM32CubelIDE/debug.png)
 
 ## 常用快捷键
 
