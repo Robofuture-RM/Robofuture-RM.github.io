@@ -127,8 +127,7 @@ comments:
     repository  : Robofuture-RM.github.io # GitHub repo
     owner       : Robofuture-RM # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      - Robofuture # - your GitHub Id
-      - Zhb-Wave
+      - Robofuture-RM # - your GitHub Id
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
