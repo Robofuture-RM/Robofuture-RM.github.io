@@ -14,16 +14,16 @@
 ##############################
 text_skin: default
 highlight_theme: default
-url     : 
-baseurl : 
+url     : http://robofuture.net.cn
+baseurl : /
 title   : Robofuture RM Team
 description: 浙纺 Robofuture 团队成员用于分享自学经历的博客站
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: zh # the language of your site, default as "en"
+timezone: Asia/Shanghai 
 
 
 ## => Author and Social
@@ -31,7 +31,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : organization
   name      : Robofuture
-  url       : 
+  url       : https://github.com/Robofuture
   avatar    : /assets/apple-touch-icon.png # 头像
   bio       : Robofuture RM Team
   email     :
@@ -79,14 +79,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -97,13 +97,13 @@ paginate_path: /page:num # don't change this unless for special need
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+sources: bootcdn # bootcdn (default), unpkg
 
 
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addtoany # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
@@ -113,7 +113,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -122,12 +122,13 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
+    clientID    : 29c97530b8da656cbfc5 # GitHub Application Client ID
+    clientSecret: f970ee77e112b3713e567e5bf74a91b3571e188c # GitHub Application Client Secret
+    repository  : Robofuture-RM.github.io # GitHub repo
+    owner       : Robofuture-RM # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+      - Robofuture # - your GitHub Id
+      - Zhb-Wave
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
