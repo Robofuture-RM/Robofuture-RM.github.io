@@ -3,8 +3,8 @@ title: STM32CubelIDE使用笔记 01：基础使用与说明
 tags: STM32CubelIDE
 author: Zhb-Wave
 show_author_profile: true
-modify_date: 2021-02-01
-typora-root-url:..
+modify_date: 2021-02-04
+typora-root-url: ..
 ---
 
 ## 目的
