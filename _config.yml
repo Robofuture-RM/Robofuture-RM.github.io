@@ -113,21 +113,21 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: discussions-5 # the Disqus shortname for the site
+    shortname:  # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 29c97530b8da656cbfc5 # GitHub Application Client ID
-    clientSecret: 36a1b8be86b42929b6a90552e771aa97d3a25915 # GitHub Application Client Secret
-    repository  : Comments # GitHub repo
-    owner       : Robofuture-RM # GitHub repo owner
+    clientID    :  # GitHub Application Client ID
+    clientSecret:  # GitHub Application Client Secret
+    repository  :  # GitHub repo
+    owner       :  # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      - Robofuture-RM # - your GitHub Id
+      - # - your GitHub Id
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
