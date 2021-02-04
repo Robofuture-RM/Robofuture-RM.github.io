@@ -10,6 +10,8 @@ modify_date: 2021-02-04
 
 STM32cubeIDE是ST官方推出的一款用于开发STM32的工具，在这里进行记录软件安装过程，并对界面进行说明。
 
+<!--more-->
+
 ## 安装
 
 软件可以在ST官网获取：[传送门](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/stm32cubeide.html)。安装一直下一步即可完成安装：
