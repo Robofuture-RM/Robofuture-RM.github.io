@@ -15,17 +15,17 @@ STM32cubeIDE是ST官方推出的一款用于开发STM32的工具，在这里进�
 
 软件可以在ST官网获取：[传送门](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/stm32cubeide.html)。安装一直下一步即可完成安装：
 
-![install-01](assets\images\STM32CubelIDE\install-01.png)
+![install-01](http://robofuture.net.cn/assets/images/STM32CubelIDE/install-01.png)
 
-![install-02](assets\images\STM32CubelIDE\install-02.png)
+![install-02](http://robofuture.net.cn/assets/images/STM32CubelIDE/install-02.png)
 
-![install-03](assets\images\STM32CubelIDE\install-03.png)
+![install-03](http://robofuture.net.cn/assets/images/STM32CubelIDE/install-03.png)
 
-![install-04](assets\images\STM32CubelIDE\install-04.png)
+![install-04](http://robofuture.net.cn/assets/images/STM32CubelIDE/install-04.png)
 
-![install-05](assets\images\STM32CubelIDE\install-05.png)
+![install-05](http://robofuture.net.cn/assets/images/STM32CubelIDE/install-05.png)
 
-![install-06](assets\images\STM32CubelIDE\install-06.png)
+![install-06](http://robofuture.net.cn/assets/images/STM32CubelIDE/install-06.png)
 
 ## 软件的使用与界面说明
 
@@ -39,27 +39,27 @@ STM32cubeIDE是ST官方推出的一款用于开发STM32的工具，在这里进�
 
 选择好工作空间后就可以使用IDE了。
 
-![select_workspace](assets\images\STM32CubelIDE\select_workspace.png)
+![select_workspace](http://robofuture.net.cn/assets/images/STM32CubelIDE/select_workspace.png)
 
 ### 2.新建项目
 
 下面我们需要开始一个新项目，选择 `Start new STM32 project`。
 
-![start_porject](assets\images\STM32CubelIDE\start_porject.png)
+![start_porject](http://robofuture.net.cn/assets/images/STM32CubelIDE/start_porject.png)
 
 ### 3.选择芯片
 
 选择开发板使用的芯片
 
-![MCU_selection](assets\images\STM32CubelIDE\MCU_selection.png)
+![MCU_selection](http://robofuture.net.cn/assets/images/STM32CubelIDE/MCU_selection.png)
 
 ### 4.基础设置
 
 这里只需设置项目名字（Project Name），其他都保持默认
 
-![porject_setup](assets\images\STM32CubelIDE\porject_setup.png)
+![porject_setup](assets/images/STM32CubelIDE/porject_setup.png)
 
-![firmware_setup](assets\images\STM32CubelIDE\firmware_setup.png)
+![firmware_setup](assets/images/STM32CubelIDE/firmware_setup.png)
 
 ### 5.引脚设置
 
