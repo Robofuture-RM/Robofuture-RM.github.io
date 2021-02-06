@@ -108,3 +108,21 @@ STM32CubeIDE快捷键很多，可以通过 `Help > Show Active Keybindings...` �
 | F6           | 单步跳过（调试时）       |
 | F7           | 单步返回（调试时）       |
 | F8           | 继续运行（调试时）       |
+
+## 文件夹说明
+
+![file_specification](http://robofuture.net.cn/assets/images/STM32CubeIDE/file_specification.png)
+
+## 其他配置
+
+### 1 在高分辨率下工具栏图标太小
+
+我们选择要启动的软件，鼠标右键，打开属性，选择兼容性->更改高 DPI 设置：
+
+![DPI_config-01](http://robofuture.net.cn/assets/images/STM32CubeIDE/DPI_config-01.png)
+
+![DPI_config-02](http://robofuture.net.cn/assets/images/STM32CubeIDE/DPI_config-02.png)
+
+勾选`替代高 DIP 缩放行为`，在下面的选择框中选择`系统（增强）`
+
+![DPI_config-03](http://robofuture.net.cn/assets/images/STM32CubeIDE/DPI_config-03.png)
