@@ -1,11 +1,11 @@
 ---
-title: 大恒相机使用笔记 01：安装与使用
-tags: 大恒 大恒相机
+title: 大恒相机使用笔记 01：ubuntu系统下安装与使用
+tags: RM 大恒相机
 author: mnwscisme
 show_author_profile: true
 modify_date: 2022-05-02
 ---
-## 目的
+## 前言
 
 大恒相机是Robofuture战队在ROBOMASTER2021赛季所使用的摄像头，在这里进行记录软件安装过程，并对使用进行说明。
 
@@ -22,13 +22,13 @@ modify_date: 2022-05-02
 
 ### 2.安装相机驱动
 
-```
-步骤1：在文件夹Galaxy_Linux-armhf_Gige-U3_32bits-64bits_1.3.1911.9271中打开终端
 
-步骤2：执行：./Galaxy_camera.run ；（按提示输入Y，中间有一次问你安装中文或英文，其他则输入Y即可）；
+•步骤1：在文件夹Galaxy_Linux-armhf_Gige-U3_32bits-64bits_1.3.1911.9271中打开终端
+
+• 步骤2：执行：./Galaxy_camera.run ；（按提示输入Y，中间有一次问你安装中文或英文，其他则输入Y即可）；
 
 安装完成则产生以下文件：
-```
+
 
 ![成功图一](http://robofuture.net.cn/assets/images/DaHeng_camera/DaHeng_camera_succeed1.png)
 
@@ -36,11 +36,9 @@ modify_date: 2022-05-02
 
 ### 3.安装相机gxipy库
 
-```
-步骤1：在Galaxy_Linux_Python_2.0.2008.9111文件夹中打开终端
-```
+**步骤1：**
 
-##### 安装依赖环境
+• 在Galaxy_Linux_Python_2.0.2008.9111文件夹中打开终端，或通过路径跳转至该目录下
 
 **步骤2：**
 ```
@@ -54,9 +52,6 @@ sudo apt-get install python3.x-dev
 ```
 sudo apt-get install python3-setuptools
 ```
-
-##### 安装gxipy库
-
 
 **步骤5：**
 ```
@@ -85,6 +80,7 @@ sudo pip3 install numpy==1.9.0
 **步骤10：**
 ```
 sudo pip3 install pillow
+
 （若失败则执行后再试：sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev）
 ```
 
@@ -238,8 +234,8 @@ cam.Height.set(500)
     cam.UserSetSave.send_command()
 ```
 ```
- •自定义白平衡的自定义函数：
- • 可以用该函数替换掉“frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB) ”    
+ • 自定义白平衡的自定义函数：
+ • 可用该函数替换掉“frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB) ”    
  
  def whiteBalance(img):							                            
     r,g,b = cv2.split(img)							                            
